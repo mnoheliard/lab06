@@ -5,6 +5,7 @@ public class Main extends JFrame
 {
   public static void main(String[] args)
   {
+    Main main = new Main();
     main.setTitle("My Application");
     main.setSize(400,300);
     main.setSize(400, 300);

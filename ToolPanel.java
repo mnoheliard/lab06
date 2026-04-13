@@ -1,6 +1,5 @@
 import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
 
 
 class ToolPanel extends JPanel {
@@ -24,11 +23,5 @@ class ToolPanel extends JPanel {
         r2.addActionListener(listener);
         r3.addActionListener(listener);
         r1.setSelected(true);
-        
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        System.out.println("Clicked");
     }
 }

@@ -9,15 +9,15 @@ public class ToolPanelListener implements ActionListener{
     System.out.println("Selected color: " + command);
     if(command.equals("Red"))
     {
-      Blackboard.setColor(Color.RED);
+      Blackboard.setCurrentColor(Color.RED);
     }
-    else if (command.equals("Green");
+    else if (command.equals("Green"))
     {
-      Blackboard.setColor(Color.GREEN);
+      Blackboard.setCurrentColor(Color.GREEN);
     }
     else if (command.equals("Blue"))
     {
-      Blackboard.setColor(Color.BLUE);
+      Blackboard.setCurrentColor(Color.BLUE);
     }
   }
 }

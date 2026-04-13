@@ -16,7 +16,7 @@ public class StatusBarPanel extends JPanel implements Runnable{
                 long time = System.currentTimeMillis();
                 java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("HH:mm:ss");
                 String formatedTime = sdf.format(new java.util.Date(time));
-                label.setText("Time: " + formatedTime + " :: clicks: " + Blackboard.getCounter()));
+                label.setText("Time: " + formatedTime + " :: clicks: " + Blackboard.getCounter());
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
